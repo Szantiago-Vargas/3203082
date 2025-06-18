@@ -1,0 +1,56 @@
+/** le da la fuente sans-serif le da un estilo a las letras de todo el contenido el color #f7f7f7 
+es el de fondo y el padding le da una margen de 40 pixeles para separar el contenido**/
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  padding: 40px;
+}
+/** le da una posicion , una altura de 400 pixeles y 300 de ancho un fondo claro un borde solido de 2pixeles oscuro**/
+.contenedor {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  background-color: #e0e0e0;
+  border: 2px solid #333;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    position:absolute;
+    display: block;
+    
+}
+.caja1{
+    background-color: crimson;
+    top: 10px;
+    left: 10px;
+    position: static;
+}
+.caja2{
+    background-color: royalblue;
+    top: 60px;
+    left: 120px;
+    position: sticky;
+
+}
+.caja3{
+    background-color: seagreen;
+    bottom: 10px;
+    top: 10px;
+    right: 100px;
+    position: fixed;
+    
+}
+.caja4{
+    background-color: rgb(255, 0, 157);
+    bottom: 10px;
+    right: 10px;
+    position: static;
+
+}

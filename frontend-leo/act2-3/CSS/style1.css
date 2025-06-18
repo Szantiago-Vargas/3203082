@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.caja {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s ease;
+}
+
+.caja:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.caja h1 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.caja p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Variaciones de color */
+.caja:nth-child(1) {
+    border-left: 4px solid #007bff;
+}
+
+.caja:nth-child(2) {
+    border-left: 4px solid #28a745;
+}
+
+.caja:nth-child(3) {
+    border-left: 4px solid #ffc107;
+}
+
+.caja:nth-child(4) {
+    border-left: 4px solid #dc3545;
+}
+
+.caja:nth-child(5) {
+    border-left: 4px solid #6f42c1;
+}
+
+.caja:nth-child(6) {
+    border-left: 4px solid #fd7e14;
+}
+
+.caja:nth-child(7) {
+    border-left: 4px solid #20c997;
+}
+
+.caja:nth-child(8) {
+    border-left: 4px solid #e83e8c;
+}
+
+.caja:nth-child(9) {
+    border-left: 4px solid #6c757d;
+}
+
+.caja:nth-child(10) {
+    border-left: 4px solid #17a2b8;
+}
+
+.caja:nth-child(11) {
+    border-left: 4px solid #343a40;
+}
+
+.caja:nth-child(12) {
+    border-left: 4px solid #f8f9fa;
+}
+
+.caja:nth-child(1) h1 {
+    border-bottom-color: #007bff;
+}
+
+.caja:nth-child(2) h1 {
+    border-bottom-color: #28a745;
+}
+
+.caja:nth-child(3) h1 {
+    border-bottom-color: #ffc107;
+}
+
+.caja:nth-child(4) h1 {
+    border-bottom-color: #dc3545;
+}
+
+.caja:nth-child(5) h1 {
+    border-bottom-color: #6f42c1;
+}
+
+.caja:nth-child(6) h1 {
+    border-bottom-color: #fd7e14;
+}
+
+.caja:nth-child(7) h1 {
+    border-bottom-color: #20c997;
+}
+
+.caja:nth-child(8) h1 {
+    border-bottom-color: #e83e8c;
+}
+
+.caja:nth-child(9) h1 {
+    border-bottom-color: #6c757d;
+}
+
+.caja:nth-child(10) h1 {
+    border-bottom-color: #17a2b8;
+}
+
+.caja:nth-child(11) h1 {
+    border-bottom-color: #343a40;
+}
+
+.caja:nth-child(12) h1 {
+    border-bottom-color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,132 @@
+.container {
+    display: flex ;
+}
+
+.columna {
+    height: 100vh;
+    width: 6.16%;
+    padding: 15px;
+    border: 2px solid #0033ff;
+    background-color: #ff0000;
+}
+.columna2 {
+    height: 100vh;
+    width: 94px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #00ff73;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+}
+.card{
+border-radius: 10px;
+width: 300px;
+background-color: #f5f5f5;
+box-shadow: 100px;
+align-items: center;
+
+}
+.letra1{
+ color: #559;
+ font-size: 15px;
+}
+.antes{
+ color: #008d42;
+ font-weight: bold;
+ display: block;
+}
+.actual{
+color: #ff0000;
+font-weight: bold;
+display: block;
+}
+.boton{
+background-color: rgb(0, 174, 255);
+color: white;
+padding: 12px 20px;
+border-radius: 5px;
+align-items: center;
+text-align: center;
+width: 300px;
+margin-bottom: 10px;
+border: solid 0px;
+
+}
+
+.linea{
+    text-decoration: line-through;
+}
+.boton2{
+background-color: rgb(0, 174, 255);
+color: white;
+padding: 12px 20px;
+border-radius: 5px;
+align-items: center;
+text-align: center;
+width: 300px;
+margin-top: 10px;
+border: solid 0px;
+
+}
+
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+   .formulario {
+      background-color: white;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      
+
+    }
+
+    .formulario label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .formulario input,
+    .formulario select,
+    .formulario textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    .formulario button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      
+    }
+
+    .formulario button:hover {
+      background-color: #b30000;
+    }
+button:hover{
+ background-color: #ff0000;  
+}
+

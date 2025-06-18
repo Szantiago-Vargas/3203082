@@ -1,0 +1,8 @@
+.search {
+    margin-left: -150px; 
+}
+
+.search img {
+    height: 24px;
+    cursor: pointer;
+}

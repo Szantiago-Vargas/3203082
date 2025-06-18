@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú con Flexbox</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+/*Analizar el codigo y utilizando flexbox modifiquelo como aparece en la imagen*/
+    .menu {
+      display: flex;               /* Activamos flexbox */
+      justify-content: center;     /* Centramos horizontalmente */
+      gap: 30px;                   /* Espacio entre los ítems */
+      background-color: #2c3e50;
+flex-direction: column-reverse;
+      padding: 20px;
+    }
+
+    .menu a {
+      color: rgb(103, 97, 97);
+      text-decoration: none;
+      font-size: 18px;
+      padding: 8px 15px;
+      transition: background 0.3s;
+    }
+
+    .menu a:hover {
+      background-color: #fafafa;
+      border-radius: 5px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="menu">
+    <a href="kk.html">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Acerca de</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+</body>
+</html>
